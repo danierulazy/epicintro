@@ -1,0 +1,68 @@
+# ==========================================================
+# ACEDIAMC INTRO - Konfigurasi Showcase Cinematic
+# ==========================================================
+
+settings:
+  server-title: "&6&lACEDIAMC"
+  server-subtitle: "&f&lPERKENALAN MEMBER"
+  intro-banner-seconds: 4
+  member-duration-seconds: 6
+  hide-real-players-during-show: true
+  music:
+    enabled: true
+    sound-name: "BUILT_IN_EPIC"
+    volume: 1.0
+    pitch: 1.0
+
+locations:
+  stage:
+    world: "world"
+    x: 0.5
+    y: 70.0
+    z: 0.5
+    yaw: 0.0
+    pitch: 0.0
+  camera:
+    world: "world"
+    x: 0.5
+    y: 72.5
+    z: 6.5
+    yaw: 180.0
+    pitch: 10.0
+
+members:
+  1:
+    username: "ElestialNdut"
+    display-name: "&6[01] &eElestialNdut"
+    quote: "&7Pls Jangan khianatin gu mulu"
+    animation: "EMERGE_SMOKE"
+    hand-item: "TRIDENT"
+    particle-theme: "CLOUD_AND_FIREWORK"
+  2:
+    username: "KevinLemak"
+    display-name: "&6[02] &eKevinLemak"
+    quote: "&7Ga butuh kata-kata yang penting bukti nyata"
+    animation: "SKY_SLAM"
+    hand-item: "SHIELD"
+    particle-theme: "FLAME_AND_EXPLOSION"
+  3:
+    username: "NevinGaming"
+    display-name: "&6[03] &eNevinGaming"
+    quote: "&7WOOI ACEDIAMC GANG!"
+    animation: "HERO_CHARGE"
+    hand-item: "GOLDEN_SWORD"
+    particle-theme: "GOLD_SPARKS"
+  4:
+    username: "Azrealon"
+    display-name: "&6[04] &eAzrealon"
+    quote: "&7Sebenarnya gu bisa, tapi males aja"
+    animation: "TELEPORT_FLASH"
+    hand-item: "IRON_AXE"
+    particle-theme: "ENCHANT_AND_TOTEM"
+  5:
+    username: "CorazonID"
+    display-name: "&6[05] &eCorazonID"
+    quote: "&7Mainan gu ni blay"
+    animation: "LEVITATION_DROP"
+    hand-item: "CROSSBOW"
+    particle-theme: "HEART_AND_CRIT"

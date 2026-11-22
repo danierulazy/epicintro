@@ -1,0 +1,18 @@
+name: AcediaMCIntro
+version: ${project.version}
+main: id.danierulazy.acediamcintro.AcediaMCIntroPlugin
+api-version: 1.13
+author: danierulazy
+description: Cinematic Member Introduction Showcase for AcediaMC with Skin NPC, Custom Entrance Animations, Particles, Titles, and Epic Audio!
+
+commands:
+  acediaintro:
+    description: Kontrol utama showcase intro member AcediaMC
+    usage: /acediaintro <start|stop|setstage|setcam|addmember|reload|preview>
+    aliases: [aintro, acediamcintro, memberintro]
+    permission: acediaintro.admin
+
+permissions:
+  acediaintro.admin:
+    description: Mengizinkan admin menjalankan dan mengatur AcediaMCIntro
+    default: op
